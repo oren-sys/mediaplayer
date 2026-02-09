@@ -163,6 +163,33 @@
             letter-spacing: 0.5px;
         }
 
+        .alt-download {
+            margin-top: 12px;
+            font-size: 13px;
+            color: var(--text-tertiary);
+        }
+
+        .alt-download a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        .alt-download a:hover {
+            border-bottom-color: var(--accent);
+        }
+
+        .checksum {
+            margin-top: 24px;
+            font-size: 11px;
+            color: var(--text-tertiary);
+            font-family: "Consolas", "Courier New", monospace;
+            opacity: 0.6;
+            max-width: 520px;
+            word-break: break-all;
+        }
+
         /* ── Features ── */
         .features {
             display: flex;
@@ -229,13 +256,15 @@
         <div class="play-icon"></div>
         <h1>To view this video you need to download MediaPlayer</h1>
         <p>A modern media player that plays all video formats with automatic metadata, subtitles, and a cinematic browsing experience.</p>
-        <a href="https://github.com/oren-sys/mediaplayer/releases/download/v1.1.0/MediaPlayer-Setup-1.1.0.exe" class="download-btn">
+        <a href="https://github.com/oren-sys/mediaplayer/releases/download/v1.2.0/MediaPlayer-v1.2.0-portable.zip" class="download-btn">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 16l-5-5h3V4h4v7h3l-5 5zm-7 2h14v2H5v-2z"/>
             </svg>
             Download MediaPlayer
         </a>
-        <div class="meta-text">Free &middot; Windows &middot; v1.1.0</div>
+        <div class="meta-text">Free &middot; Windows &middot; v1.2.0 &middot; Portable ZIP</div>
+        <div class="alt-download">Prefer an installer? <a href="https://github.com/oren-sys/mediaplayer/releases/download/v1.2.0/MediaPlayer-Setup-1.2.0.exe">Download Setup EXE</a></div>
+        <div class="checksum">SHA-256: 60e7e1f1c3d4145952e9f0a84fabf5b408b3b3ca5ecbac3c8733a679c070ae39</div>
     </main>
 
     <section class="features">
